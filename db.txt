@@ -1,0 +1,16 @@
+php artisan migrate
+php artisan make:migration create_site_images_table
+php artisan migrate --seed
+php artisan make:seeder UsersTableSeeder
+
+php artisan make:seeder PaymentModeTableSeeder
+php artisan db:seed --class=PaymentModeTableSeeder
+
+php artisan db:seed --class=DocumentsSeeder
+php artisan db:seed --class=LoanAccountStatusSeeder
+php artisan db:seed --class=LoanReceivedSeeder
+php artisan db:seed --class=LoanStatusSeeder
+php artisan db:seed --class=StaffSeeder
+
+php arrtisan make:controller UserController
+php artisan make:model Media

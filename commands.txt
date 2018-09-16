@@ -1,0 +1,5 @@
+commands
+php artisan make:middleware userAuth
+php artisan make:controller ControllerName
+php artisan config:clear
+php artisan key:generate

@@ -1,0 +1,1 @@
+<div>Hi{{ $name}},Demo Sendgrid mail testing</div>
